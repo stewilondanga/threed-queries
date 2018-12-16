@@ -9,18 +9,18 @@ var navigate = (function() {
 
 const btn = document.querySelectorAll(".btn span");
 
-/*for (let i = 0; i < btn.length; i++) {
-	btn[i].addEventListener("click", function() {
-		document
-			.querySelector(
-				"nav .dot.step_" + (parseInt(this.getAttribute("data-step")) + 1) + ""
-			)
-			.classList.add("done");
-		turn(parseInt(this.getAttribute("data-step")));
-	});
+for (let i = 0; i < btn.length; i++) {
+  btn[i].addEventListener("click", function() {
+    document
+      .querySelector(
+        "nav .dot.step_" + (parseInt(this.getAttribute("data-step")) + 1) + ""
+      )
+      .classList.add("done");
+    turn(parseInt(this.getAttribute("data-step")));
+  });
 }
 
-function turn(step) {
+/*function turn(step) {
 	if (!!document.querySelector("#step__" + (step - 1))) {
 		document.querySelector("#step__" + (step - 1)).classList.add("hidden");
 	}
