@@ -276,11 +276,11 @@ div.btn.purple span {
   border-color: #e90052;
 }
 
-/*
 div.btn.purple span:hover {
-	background: #e90052;
+  background: #e90052;
 }
 
+/*
 div.btn.green span {
 	color: #00ff85;
 	border-color: #00ff85;
