@@ -348,11 +348,11 @@ div.btn.violet span:hover {
   background: #04f5ff;
 }
 
-/*.checkbox.yellow {
-	border-color: #ebff00;
+.checkbox.yellow {
+  border-color: #ebff00;
 }
 
-.checkbox.yellow .circle {
+/*.checkbox.yellow .circle {
 	background: #ebff00;
 }
 
