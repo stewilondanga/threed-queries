@@ -126,11 +126,11 @@ body {
   transform: rotateX(-90deg) translateZ(35px);
 }
 
-/*
 .hidden {
-	display: none;
+  display: none;
 }
 
+/*
 input:not([type="radio"]),
 select {
 	display: block;
