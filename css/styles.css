@@ -73,15 +73,15 @@ body {
   transform: translateZ(-100px);
 }
 
-/*
 .steps {
-	position: absolute;
-	top: 140%;
-	display: flex;
-	width: 100%;
-	justify-content: center;
+  position: absolute;
+  top: 140%;
+  display: flex;
+  width: 100%;
+  justify-content: center;
 }
 
+/*
 .steps .dot {
 	width: 15px;
 	height: 15px;
