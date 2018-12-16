@@ -215,16 +215,16 @@ input.label::placeholder {
   align-items: center;
 }
 
-/*
 .item {
-	width: 46px;
-	height: 46px;
-	margin: 2px;
-	cursor: pointer;
-	transition: transform 0.25s;
-	border-radius: 4px;
+  width: 46px;
+  height: 46px;
+  margin: 2px;
+  cursor: pointer;
+  transition: transform 0.25s;
+  border-radius: 4px;
 }
 
+/*
 .item:hover {
 	transform: scale(1.2);
 }
