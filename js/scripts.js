@@ -20,32 +20,32 @@ for (let i = 0; i < btn.length; i++) {
   });
 }
 
-/*function turn(step) {
-	if (!!document.querySelector("#step__" + (step - 1))) {
-		document.querySelector("#step__" + (step - 1)).classList.add("hidden");
-	}
+function turn(step) {
+  if (!!document.querySelector("#step__" + (step - 1))) {
+    document.querySelector("#step__" + (step - 1)).classList.add("hidden");
+  }
 
-	document.querySelector("#step__" + step).classList.add("cube__face--top");
-	document.querySelector("#step__" + step).classList.remove("cube__face--front");
+  document.querySelector("#step__" + step).classList.add("cube__face--top");
+  document.querySelector("#step__" + step).classList.remove("cube__face--front");
 
-	step += 1;
-	if (!!document.querySelector("#step__" + step)) {
-		document.querySelector("#step__" + step).classList.add("cube__face--front");
-		if (!!document.querySelector("#step__" + step + " input")) {
-			document.querySelector("#step__" + step + " input").focus();
-		}
-		document
-			.querySelector("#step__" + step)
-			.classList.remove("cube__face--bottom");
-	}
+  step += 1;
+  if (!!document.querySelector("#step__" + step)) {
+    document.querySelector("#step__" + step).classList.add("cube__face--front");
+    if (!!document.querySelector("#step__" + step + " input")) {
+      document.querySelector("#step__" + step + " input").focus();
+    }
+    document
+      .querySelector("#step__" + step)
+      .classList.remove("cube__face--bottom");
+  }
 
-	step += 1;
-	if (!!document.querySelector("#step__" + step)) {
-		document.querySelector("#step__" + step).classList.add("cube__face--bottom");
-	}
+  step += 1;
+  if (!!document.querySelector("#step__" + step)) {
+    document.querySelector("#step__" + step).classList.add("cube__face--bottom");
+  }
 }
 
-const colors = document.querySelectorAll(".radio .item");
+/*const colors = document.querySelectorAll(".radio .item");
 const btns = document.querySelectorAll(".btn");
 
 for (var i = 0; i < colors.length; i++) {
