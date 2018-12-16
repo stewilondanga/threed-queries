@@ -210,12 +210,12 @@ input.label::placeholder {
   padding-right: 10px;
 }
 
-/*
 .radio {
-	display: flex;
-	align-items: center;
+  display: flex;
+  align-items: center;
 }
 
+/*
 .item {
 	width: 46px;
 	height: 46px;
