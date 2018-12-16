@@ -195,12 +195,12 @@ div.btn span {
   display: none;
 }
 
-/*
 div.btn span:hover {
-	color: #ffffff !important;
-	background: #e90052;
+  color: #ffffff !important;
+  background: #e90052;
 }
 
+/*
 input.label::placeholder {
 	color: #202020 !important;
 }
