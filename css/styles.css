@@ -38,14 +38,14 @@ body {
   z-index: 2;
 }
 
-/*
 .scene.end {
-	opacity: 0;
-	transition-delay: 0.25s;
-	transition: opacity 0.5s;
-	z-index: 0;
+  opacity: 0;
+  transition-delay: 0.25s;
+  transition: opacity 0.5s;
+  z-index: 0;
 }
 
+/*
 .welcome {
 	opacity: 0;
 	width: 100%;
