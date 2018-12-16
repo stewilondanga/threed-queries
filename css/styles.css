@@ -156,15 +156,15 @@ input::placeholder {
   color: #a0a0a0;
 }
 
-/*
 .cube__face .container {
-	height: 100%;
-	width: 100%;
-	position: relative;
-	padding-right: 185px;
-	padding-left: 50px;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  padding-right: 185px;
+  padding-left: 50px;
 }
 
+/*
 div.btn.show {
 	opacity: 1 !important;
 }
