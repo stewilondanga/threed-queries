@@ -7,9 +7,9 @@ var navigate = (function() {
   });
 })();
 
-/*const btn = document.querySelectorAll(".btn span");
+const btn = document.querySelectorAll(".btn span");
 
-for (let i = 0; i < btn.length; i++) {
+/*for (let i = 0; i < btn.length; i++) {
 	btn[i].addEventListener("click", function() {
 		document
 			.querySelector(
