@@ -262,12 +262,12 @@ div.btn.blue span:hover {
   background: #04f5ff;
 }
 
-/*
 div.btn.yellow span {
-	color: #ebff00;
-	border-color: #ebff00;
+  color: #ebff00;
+  border-color: #ebff00;
 }
 
+/*
 div.btn.yellow span:hover {
 	background: #ebff00;
 }
