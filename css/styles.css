@@ -200,11 +200,11 @@ div.btn span:hover {
   background: #e90052;
 }
 
-/*
 input.label::placeholder {
-	color: #202020 !important;
+  color: #202020 !important;
 }
 
+/*
 #step__1 .container,
 #step__6 .container {
 	display: flex;
