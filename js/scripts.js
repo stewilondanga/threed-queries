@@ -123,9 +123,9 @@ for (let i = 0; i < inputs.length; i++) {
     }
   });
 }
-/*
+
 document.querySelector("select").addEventListener("change", function() {
-	this.closest(".container")
-		.querySelector(".btn")
-		.classList.add("show");
+  this.closest(".container")
+    .querySelector(".btn")
+    .classList.add("show");
 });
