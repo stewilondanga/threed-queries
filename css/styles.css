@@ -327,11 +327,11 @@ div.btn.violet span:hover {
   transition: transform 0.25s ease, background 0.25s ease;
 }
 
-/*.checkbox.checked {
-	background: #e90052;
+.checkbox.checked {
+  background: #e90052;
 }
 
-.checkbox.checked .circle {
+/*.checkbox.checked .circle {
 	transform: translateX(25px);
 	background: white !important;
 }
