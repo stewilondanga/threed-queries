@@ -317,17 +317,17 @@ div.btn.violet span:hover {
   margin: auto 8px;
 }
 
-/*.checkbox .circle {
-	height: 25px;
-	width: 25px;
-	border-radius: 100%;
-	background: #e90052;
-	display: block;
-	transform: translateX(0px);
-	transition: transform 0.25s ease, background 0.25s ease;
+.checkbox .circle {
+  height: 25px;
+  width: 25px;
+  border-radius: 100%;
+  background: #e90052;
+  display: block;
+  transform: translateX(0px);
+  transition: transform 0.25s ease, background 0.25s ease;
 }
 
-.checkbox.checked {
+/*.checkbox.checked {
 	background: #e90052;
 }
 
