@@ -122,11 +122,11 @@ body {
   transition: opacity 0.5s;
 }
 
-/*
 .cube__face--bottom {
-	transform: rotateX(-90deg) translateZ(35px);
+  transform: rotateX(-90deg) translateZ(35px);
 }
 
+/*
 .hidden {
 	display: none;
 }
