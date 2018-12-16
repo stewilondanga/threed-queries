@@ -70,60 +70,60 @@ document.querySelector(".checkbox").addEventListener("click", function() {
   document.querySelector(".welcome").classList.add("show");
 });
 
-/*const inputs = document.querySelectorAll(".cube__face input");
+const inputs = document.querySelectorAll(".cube__face input");
 for (let i = 0; i < inputs.length; i++) {
-	inputs[i].addEventListener("keyup", function(e) {
-		if (this.getAttribute("type") == "text") {
-			if (this.value.length > 1) {
-				this.closest(".container")
-					.querySelector(".btn")
-					.classList.add("show");
-				if (e.keyCode == 13) {
-					this.closest(".container")
-						.querySelector(".btn span")
-						.click();
-				}
-			} else {
-				this.closest(".container")
-					.querySelector(".btn")
-					.classList.remove("show");
-			}
-		}
-		if (this.getAttribute("type") == "email") {
-			if (this.value.length > 2 && this.value.includes("@")) {
-				this.closest(".container")
-					.querySelector(".btn")
-					.classList.add("show");
-				if (e.keyCode == 13) {
-					this.closest(".container")
-						.querySelector(".btn span")
-						.click();
-				}
-			} else {
-				this.closest(".container")
-					.querySelector(".btn")
-					.classList.remove("show");
-			}
-		}
-		if (this.getAttribute("type") == "password") {
-			if (this.value.length > 3) {
-				this.closest(".container")
-					.querySelector(".btn")
-					.classList.add("show");
-				if (e.keyCode == 13) {
-					this.closest(".container")
-						.querySelector(".btn span")
-						.click();
-				}
-			} else {
-				this.closest(".container")
-					.querySelector(".btn")
-					.classList.remove("show");
-			}
-		}
-	});
+  inputs[i].addEventListener("keyup", function(e) {
+    if (this.getAttribute("type") == "text") {
+      if (this.value.length > 1) {
+        this.closest(".container")
+          .querySelector(".btn")
+          .classList.add("show");
+        if (e.keyCode == 13) {
+          this.closest(".container")
+            .querySelector(".btn span")
+            .click();
+        }
+      } else {
+        this.closest(".container")
+          .querySelector(".btn")
+          .classList.remove("show");
+      }
+    }
+    if (this.getAttribute("type") == "email") {
+      if (this.value.length > 2 && this.value.includes("@")) {
+        this.closest(".container")
+          .querySelector(".btn")
+          .classList.add("show");
+        if (e.keyCode == 13) {
+          this.closest(".container")
+            .querySelector(".btn span")
+            .click();
+        }
+      } else {
+        this.closest(".container")
+          .querySelector(".btn")
+          .classList.remove("show");
+      }
+    }
+    if (this.getAttribute("type") == "password") {
+      if (this.value.length > 3) {
+        this.closest(".container")
+          .querySelector(".btn")
+          .classList.add("show");
+        if (e.keyCode == 13) {
+          this.closest(".container")
+            .querySelector(".btn span")
+            .click();
+        }
+      } else {
+        this.closest(".container")
+          .querySelector(".btn")
+          .classList.remove("show");
+      }
+    }
+  });
 }
-
+/*
 document.querySelector("select").addEventListener("change", function() {
 	this.closest(".container")
 		.querySelector(".btn")
