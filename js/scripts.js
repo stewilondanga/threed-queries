@@ -48,22 +48,22 @@ function turn(step) {
 const colors = document.querySelectorAll(".radio .item");
 const btns = document.querySelectorAll(".btn");
 
-/*for (var i = 0; i < colors.length; i++) {
-	colors[i].addEventListener("click", function() {
-		this.closest(".container")
-			.querySelector(".btn span")
-			.click();
-		document.body.classList.add(this.getAttribute("data-color"));
-		for (var j = 0; j < btns.length; j++) {
-			btns[j].classList.add(this.getAttribute("data-color"));
-		}
-		document
-			.querySelector(".checkbox")
-			.classList.add(this.getAttribute("data-color"));
-	});
+for (var i = 0; i < colors.length; i++) {
+  colors[i].addEventListener("click", function() {
+    this.closest(".container")
+      .querySelector(".btn span")
+      .click();
+    document.body.classList.add(this.getAttribute("data-color"));
+    for (var j = 0; j < btns.length; j++) {
+      btns[j].classList.add(this.getAttribute("data-color"));
+    }
+    document
+      .querySelector(".checkbox")
+      .classList.add(this.getAttribute("data-color"));
+  });
 }
 
-document.querySelector(".checkbox").addEventListener("click", function() {
+/*document.querySelector(".checkbox").addEventListener("click", function() {
 	this.classList.toggle("checked");
 	document.querySelector(".scene").classList.add("end");
 
