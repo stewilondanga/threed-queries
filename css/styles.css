@@ -55,13 +55,13 @@ body {
   transition: opacity 0.5s;
 }
 
-/*
 .welcome .content {
-	margin: auto;
-	font-size: 2rem;
-	color: #ffffff;
+  margin: auto;
+  font-size: 2rem;
+  color: #ffffff;
 }
 
+/*
 .welcome.show {
 	opacity: 1;
 }
