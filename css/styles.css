@@ -164,11 +164,11 @@ input::placeholder {
   padding-left: 50px;
 }
 
-/*
 div.btn.show {
-	opacity: 1 !important;
+  opacity: 1 !important;
 }
 
+/*
 div.btn.show span {
 	display: block !important;
 }
