@@ -303,12 +303,12 @@ div.btn.violet span:hover {
   align-items: center;
 }
 
-/*.right label {
-	font-size: 1.5rem;
-	font-weight: normal;
+.right label {
+  font-size: 1.5rem;
+  font-weight: normal;
 }
 
-.checkbox {
+/*.checkbox {
 	padding: 4px;
 	border: 3px solid #e90052;
 	display: inline-block;
