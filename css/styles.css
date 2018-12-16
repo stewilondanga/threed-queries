@@ -253,12 +253,12 @@ body.violet,
   background: #38003c;
 }
 
-/*
 div.btn.blue span {
-	color: #04f5ff;
-	border-color: #04f5ff;
+  color: #04f5ff;
+  border-color: #04f5ff;
 }
 
+/*
 div.btn.blue span:hover {
 	background: #04f5ff;
 }
