@@ -27,12 +27,11 @@ body {
   height: 1.5em;
 }
 
-/*
 .scene {
-	width: 650px;
-	height: 70px;
-	/*   margin: 80px; */
-/*perspective: 400px;
+  width: 650px;
+  height: 70px;
+  /*   margin: 80px; */
+  /*perspective: 400px;
 	margin: auto;
 	position: relative;
 	transition: opacity 0.5s;
@@ -136,8 +135,8 @@ select {
 	display: block;
 	margin: 0;
 	/*     padding: 0 0 0.15em; */
-/*     padding-left: 50px; */
-/*width: 100%;
+  /*     padding-left: 50px; */
+  /*width: 100%;
 	border: none;
 	background-color: transparent;
 	color: #202020;
@@ -146,7 +145,7 @@ select {
 	font-size: 1.5rem;
 	height: 100%;
 	/* 	padding-right:185px; */
-/*}
+  /*}
 
 input:focus,
 select:focus {
