@@ -384,11 +384,11 @@ div.btn.violet span:hover {
   background: #00ff85;
 }
 
-/*.checkbox.violet {
-	border-color: #38003c;
+.checkbox.violet {
+  border-color: #38003c;
 }
 
-.checkbox.violet .circle {
+/*.checkbox.violet .circle {
 	background: #38003c;
 }
 
