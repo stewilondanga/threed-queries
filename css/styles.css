@@ -147,12 +147,12 @@ select {
   /* 	padding-right:185px; */
 }
 
-/*input:focus,
+input:focus,
 select:focus {
-	outline: none;
+  outline: none;
 }
 
-input::placeholder {
+/*input::placeholder {
 	color: #a0a0a0;
 }
 
