@@ -294,10 +294,11 @@ div.btn.violet span {
   border-color: #38003c;
 }
 
-/*div.btn.violet span:hover {
-	background: #38003c;
+div.btn.violet span:hover {
+  background: #38003c;
 }
 
+/*
 .right {
 	display: flex;
 	align-items: center;
