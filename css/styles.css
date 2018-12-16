@@ -45,17 +45,17 @@ body {
   z-index: 0;
 }
 
-/*
 .welcome {
-	opacity: 0;
-	width: 100%;
-	position: absolute;
-	height: 100%;
-	display: flex;
-	transition-delay: 0.25s;
-	transition: opacity 0.5s;
+  opacity: 0;
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  display: flex;
+  transition-delay: 0.25s;
+  transition: opacity 0.5s;
 }
 
+/*
 .welcome .content {
 	margin: auto;
 	font-size: 2rem;
