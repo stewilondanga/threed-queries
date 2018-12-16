@@ -152,10 +152,11 @@ select:focus {
   outline: none;
 }
 
-/*input::placeholder {
-	color: #a0a0a0;
+input::placeholder {
+  color: #a0a0a0;
 }
 
+/*
 .cube__face .container {
 	height: 100%;
 	width: 100%;
