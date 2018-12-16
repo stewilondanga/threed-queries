@@ -298,13 +298,12 @@ div.btn.violet span:hover {
   background: #38003c;
 }
 
-/*
 .right {
-	display: flex;
-	align-items: center;
+  display: flex;
+  align-items: center;
 }
 
-.right label {
+/*.right label {
 	font-size: 1.5rem;
 	font-weight: normal;
 }
