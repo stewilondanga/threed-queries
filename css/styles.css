@@ -336,11 +336,11 @@ div.btn.violet span:hover {
   background: white !important;
 }
 
-/*.checkbox.blue {
-	border-color: #04f5ff;
+.checkbox.blue {
+  border-color: #04f5ff;
 }
 
-.checkbox.blue .circle {
+/*.checkbox.blue .circle {
 	background: #04f5ff;
 }
 
