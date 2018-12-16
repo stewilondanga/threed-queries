@@ -392,11 +392,11 @@ div.btn.violet span:hover {
   background: #38003c;
 }
 
-/*.checkbox.checked.violet {
-	background: #38003c;
+.checkbox.checked.violet {
+  background: #38003c;
 }
 
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }
