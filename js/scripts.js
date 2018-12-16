@@ -46,9 +46,9 @@ function turn(step) {
 }
 
 const colors = document.querySelectorAll(".radio .item");
-/*const btns = document.querySelectorAll(".btn");
+const btns = document.querySelectorAll(".btn");
 
-for (var i = 0; i < colors.length; i++) {
+/*for (var i = 0; i < colors.length; i++) {
 	colors[i].addEventListener("click", function() {
 		this.closest(".container")
 			.querySelector(".btn span")
