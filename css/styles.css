@@ -285,12 +285,11 @@ div.btn.green span {
   border-color: #00ff85;
 }
 
-/*
 div.btn.green span:hover {
-	background: #00ff85;
+  background: #00ff85;
 }
 
-div.btn.violet span {
+/*div.btn.violet span {
 	color: #38003c;
 	border-color: #38003c;
 }
