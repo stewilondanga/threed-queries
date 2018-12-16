@@ -228,12 +228,12 @@ input.label::placeholder {
   transform: scale(1.2);
 }
 
-/*
 body.blue,
 .item.blue {
-	background: #04f5ff;
+  background: #04f5ff;
 }
 
+/*
 body.yellow,
 .item.yellow {
 	background: #ebff00;
