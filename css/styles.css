@@ -168,11 +168,11 @@ div.btn.show {
   opacity: 1 !important;
 }
 
-/*
 div.btn.show span {
-	display: block !important;
+  display: block !important;
 }
 
+/*
 div.btn {
 	position: absolute;
 	right: 10px;
