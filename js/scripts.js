@@ -63,14 +63,14 @@ for (var i = 0; i < colors.length; i++) {
   });
 }
 
-/*document.querySelector(".checkbox").addEventListener("click", function() {
-	this.classList.toggle("checked");
-	document.querySelector(".scene").classList.add("end");
+document.querySelector(".checkbox").addEventListener("click", function() {
+  this.classList.toggle("checked");
+  document.querySelector(".scene").classList.add("end");
 
-	document.querySelector(".welcome").classList.add("show");
+  document.querySelector(".welcome").classList.add("show");
 });
 
-const inputs = document.querySelectorAll(".cube__face input");
+/*const inputs = document.querySelectorAll(".cube__face input");
 for (let i = 0; i < inputs.length; i++) {
 	inputs[i].addEventListener("keyup", function(e) {
 		if (this.getAttribute("type") == "text") {
