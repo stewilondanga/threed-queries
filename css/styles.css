@@ -117,12 +117,12 @@ body {
   opacity: 1;
 }
 
-/*
 .cube__face--top .container {
-	opacity: 0;
-	transition: opacity 0.5s;
+  opacity: 0;
+  transition: opacity 0.5s;
 }
 
+/*
 .cube__face--bottom {
 	transform: rotateX(-90deg) translateZ(35px);
 }
