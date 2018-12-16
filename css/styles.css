@@ -224,11 +224,11 @@ input.label::placeholder {
   border-radius: 4px;
 }
 
-/*
 .item:hover {
-	transform: scale(1.2);
+  transform: scale(1.2);
 }
 
+/*
 body.blue,
 .item.blue {
 	background: #04f5ff;
