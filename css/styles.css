@@ -258,11 +258,11 @@ div.btn.blue span {
   border-color: #04f5ff;
 }
 
-/*
 div.btn.blue span:hover {
-	background: #04f5ff;
+  background: #04f5ff;
 }
 
+/*
 div.btn.yellow span {
 	color: #ebff00;
 	border-color: #ebff00;
